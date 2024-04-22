@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/expertex-landing/static/css/main.d4a10481.css",
+    "main.js": "/expertex-landing/static/js/main.d3583f51.js",
+    "static/js/453.ed3810f9.chunk.js": "/expertex-landing/static/js/453.ed3810f9.chunk.js",
+    "static/media/regular_chat_after_workspace.svg": "/expertex-landing/static/media/regular_chat_after_workspace.4346246ec5fbe931639835c8d3c8221b.svg",
+    "static/media/workspace home.svg": "/expertex-landing/static/media/workspace home.82d245d8d9c20669315bbb6d14a53df8.svg",
+    "static/media/15 Artificial Intelligence copy 1.svg": "/expertex-landing/static/media/15 Artificial Intelligence copy 1.5387bc0e091cd9d920e80ca36ca9da4a.svg",
+    "static/media/Expertex.svg": "/expertex-landing/static/media/Expertex.62f51a6dc67901d31703496a337b3716.svg",
+    "static/media/bg.svg": "/expertex-landing/static/media/bg.8cf70ccc7e1ddf4819f2.svg",
+    "index.html": "/expertex-landing/index.html",
+    "main.d4a10481.css.map": "/expertex-landing/static/css/main.d4a10481.css.map",
+    "main.d3583f51.js.map": "/expertex-landing/static/js/main.d3583f51.js.map",
+    "453.ed3810f9.chunk.js.map": "/expertex-landing/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4a10481.css",
+    "static/js/main.d3583f51.js"
+  ]
+}
