@@ -1,0 +1,73 @@
+.landingPage{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.join-us{
+    margin-top: 2rem;
+}
+.join-us-btn{
+    padding: 18px 32px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Inter;
+    cursor: pointer;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    background-color: #12B6EA;
+}
+
+.modal-header{
+    border: none !important;
+}
+.modal-footer{
+    border: none !important;
+    display: flex;
+    align-items: center;
+    padding-top: 0 !important;
+    justify-content: center !important;
+    text-align: center;
+}
+
+.modal-content{
+    background-color: #141a28 !important;
+}
+.modal-header .btn-close{
+    opacity: 1;
+    box-shadow: none !important;
+    background-image: url(./images/close.png);
+}
+.join-form .form-control{
+    background-color: #F0F4F8 !important;
+    box-shadow: none !important;
+    border: none;
+}
+.submit-btn{
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Inter;
+    background-color: #12B6EA;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+.screen-shoot{
+    width: 90%;
+}
+footer {
+    background-color: #141a28;
+}
