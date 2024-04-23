@@ -33,15 +33,6 @@
 .modal-header{
     border: none !important;
 }
-.modal-footer{
-    border: none !important;
-    display: flex;
-    align-items: center;
-    padding-top: 0 !important;
-    justify-content: center !important;
-    text-align: center;
-}
-
 .modal-content{
     background-color: #141a28 !important;
 }
@@ -50,12 +41,17 @@
     box-shadow: none !important;
     background-image: url(./images/close.png);
 }
+
 .join-form .form-control{
     background-color: #F0F4F8 !important;
     box-shadow: none !important;
-    border: none;
+    padding: 8px 16px;
+}
+.join-form .form-control:focus{
+    border: 1px solid #12B6EA;
 }
 .submit-btn{
+    width: 35%;
     border: none;
     font-size: 18px;
     font-weight: 400;

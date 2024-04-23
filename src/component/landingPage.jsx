@@ -5,7 +5,7 @@ import logo2 from "./images/15 Artificial Intelligence copy 1.svg"
 import JoinModal from './modal'
 function LandingPage() {
   return (
-    <div className='landingPage'>
+    <div className='landingPage mt-4'>
         <div className='logo pb-2'>
               <div>
                   <img src={logo} alt="" />
