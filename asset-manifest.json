@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/expertex-landing/static/css/main.6cee8289.css",
-    "main.js": "/expertex-landing/static/js/main.fe84785d.js",
+    "main.js": "/expertex-landing/static/js/main.bd2e8ef2.js",
     "static/js/453.ed3810f9.chunk.js": "/expertex-landing/static/js/453.ed3810f9.chunk.js",
     "static/media/regular_chat_after_workspace.svg": "/expertex-landing/static/media/regular_chat_after_workspace.4346246ec5fbe931639835c8d3c8221b.svg",
     "static/media/workspace home.svg": "/expertex-landing/static/media/workspace home.82d245d8d9c20669315bbb6d14a53df8.svg",
@@ -10,11 +10,11 @@
     "static/media/bg.svg": "/expertex-landing/static/media/bg.8cf70ccc7e1ddf4819f2.svg",
     "index.html": "/expertex-landing/index.html",
     "main.6cee8289.css.map": "/expertex-landing/static/css/main.6cee8289.css.map",
-    "main.fe84785d.js.map": "/expertex-landing/static/js/main.fe84785d.js.map",
+    "main.bd2e8ef2.js.map": "/expertex-landing/static/js/main.bd2e8ef2.js.map",
     "453.ed3810f9.chunk.js.map": "/expertex-landing/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6cee8289.css",
-    "static/js/main.fe84785d.js"
+    "static/js/main.bd2e8ef2.js"
   ]
 }
