@@ -4,7 +4,6 @@ import "./LandingPage.css"
 import { Form } from 'react-bootstrap';
 import emailjs from '@emailjs/browser';
 function JoinModal() {
-  const form = useRef();
   const [show, setShow] = useState(false);
   const [firstName , setFirstName] = useState("")
   const [lastName , setLastName] = useState("")
@@ -12,26 +11,29 @@ function JoinModal() {
   const handleClose = () => {
     if (firstName !== "" && lastName !== "" && email !== "") {
       setShow(false)
-      setFirstName("")
-      setLastName("")
-      setEmail("")
     }
   };
   const handleShow = () => setShow(true);
+  const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_7nnhhyf', 'template_udr92lw', form.current, { publicKey: '_pB76iJLiK--Hulfc' })
+      .sendForm('service_7nnhhyf', 'template_udr92lw', form.current, {
+        publicKey: '_pB76iJLiK--Hulfc',
+      })
       .then(
         (e) => {
-          console.log('SUCCESS!' , e.text);
+          console.log('SUCCESS!', e.text);
+          setFirstName("");
+          setLastName("");
+          setEmail("");
         },
         (error) => {
           console.log('FAILED...', error.text);
         },
     );
-    e.target.reset()
   };
 
   return (
@@ -45,7 +47,7 @@ function JoinModal() {
           <Modal.Title className=' text-light'>Contact Info</Modal.Title>
         </Modal.Header>
         <Modal.Body >
-        <Form ref={form} onSubmit={(e) => sendEmail(e)} className='join-form d-flex flex-column'>
+        <Form ref={form} onSubmit={sendEmail} className='join-form d-flex flex-column'>
           <Form.Group className="mb-3" controlId="formGroupFirstName">
             <Form.Label className='text-light'>First Name</Form.Label>
             <Form.Control type="text" placeholder='First Name' name='user_first_name' value={firstName} onChange={(e)=> setFirstName(e.target.value)} required/>
@@ -59,7 +61,7 @@ function JoinModal() {
             <Form.Control type="Email" placeholder='Email' name='user_email' value={email} onChange={(e)=>setEmail(e.target.value)} required/>
           </Form.Group>
           <button className='submit-btn px-5 py-2 align-self-center' onClick={handleClose}>
-            Send
+            Join
           </button>
       </Form>
         </Modal.Body>
