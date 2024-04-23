@@ -67,3 +67,6 @@
 footer {
     background-color: #141a28;
 }
+.thanksMessage{
+    transition: 0.5s ease-in-out;
+}
