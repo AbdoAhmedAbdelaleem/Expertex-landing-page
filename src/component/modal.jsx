@@ -22,9 +22,7 @@ function JoinModal() {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_7nnhhyf', 'template_udr92lw', form.current, {
-        publicKey: '_pB76iJLiK--Hulfc',
-      })
+      .sendForm('service_7nnhhyf', 'template_udr92lw', form.current, { publicKey: '_pB76iJLiK--Hulfc' })
       .then(
         (e) => {
           console.log('SUCCESS!' , e.text);
